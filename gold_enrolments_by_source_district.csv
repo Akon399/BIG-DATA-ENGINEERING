@@ -1,0 +1,159 @@
+source_table,district_standardised,enrolment_count,completion_count,unique_participants,not_completed_count
+bronze_capturer1,Garden Route District,270,267,188,3
+bronze_capturer3,UNKNOWN,55,55,53,0
+bronze_capturer1,Garden Rouute,1,1,1,0
+bronze_capturer3,Garden  Route,1,1,1,0
+bronze_capturer3,Mtro,1,1,1,0
+bronze_capturer1,City of Cape Town District,1424,1356,1011,68
+bronze_capturer3,Metro,328,328,297,0
+bronze_capturer3,Cape Winelands District,170,170,115,0
+bronze_capturer3,Other,30,30,30,0
+bronze_capturer2,Meetro,5,3,5,2
+bronze_capturer3,overberg,1,1,1,0
+bronze_capturer1,West  Coast,1,1,1,0
+bronze_online_school,Waterberg District Municipality,1,0,1,1
+bronze_capturer1,Amathole District,1,1,1,0
+bronze_capturer1,Cape Winelnads,1,1,1,0
+bronze_capturer1,GARDEN ROUTE,2,2,2,0
+bronze_capturer1,uMgungundlovu District,1,1,1,0
+bronze_online_school,City of Cape Town District,12149,11290,5930,859
+bronze_chw_west_coast,West Coast,22,22,20,0
+bronze_capturer1,West Coast,41,39,35,2
+bronze_capturer3,Garden Route District,68,68,51,0
+bronze_capturer3,Overberg,24,24,23,0
+bronze_capturer2,Gardne Route,1,1,1,0
+bronze_online_school,OR Tambo District ,1,0,1,1
+bronze_capturer2,UNKNOWN,81,81,76,0
+bronze_online_school,Central Karoo District Municipality,97,96,21,1
+bronze_capturer2,Garden Route,49,47,45,2
+bronze_capturer3,Metor,1,1,1,0
+bronze_capturer3,metro,6,6,6,0
+bronze_online_school,Chris Hani District,2,0,2,2
+bronze_capturer3,Overrberg,1,1,1,0
+bronze_capturer2,Cape Wnelands,1,1,1,0
+bronze_online_school,Thabo Mofutsanyana District Municipality,1,1,1,0
+bronze_online_school,Nelson Mandela Bay District,2,0,2,2
+bronze_capturer1,Metor,1,1,1,0
+bronze_online_school,Ngaka Modiri Molema District,1,1,1,0
+bronze_capturer2,City of Cape Town District,4237,3938,3008,299
+bronze_online_school,Western Cape Other,2024,1779,1053,245
+bronze_capturer1,West Coast District,98,93,66,5
+bronze_capturer1,Ehlanzeni District,2,2,2,0
+bronze_online_school,Overberg District Municipality,2,2,2,0
+bronze_capturer2,Garden Ruote,1,1,1,0
+bronze_online_school,Sekhukhune District,1,1,1,0
+bronze_capturer3,Central Karo,1,1,1,0
+bronze_capturer3,Western Cape Other,7,7,7,0
+bronze_capturer3,Oevrberg,1,1,1,0
+bronze_capturer1,OR Tambo District,1,1,1,0
+bronze_capturer3,Mettro,2,2,2,0
+bronze_capturer2,CAPE WINELANDS,1,1,1,0
+bronze_capturer1,Meetro,1,1,1,0
+bronze_online_school,Cape Winelands District,3873,3694,1532,179
+bronze_capturer2,Cape Winelands,65,62,62,3
+bronze_capturer3,Central Karoo District,29,29,24,0
+bronze_capturer3,Cape Winelands,50,50,45,0
+bronze_online_school,Amathole District,2,2,1,0
+bronze_capturer1,Garden Route District ,1,0,1,1
+bronze_capturer1,Central  Karoo,1,1,1,0
+bronze_capturer2,Mettro,6,6,6,0
+bronze_capturer2,Cape Winelands District,381,354,284,27
+bronze_capturer1,Metro,269,260,247,9
+bronze_chw_witzenberg,Cape Winelands,102,102,42,0
+bronze_capturer2,Mero,4,4,4,0
+bronze_capturer3,Mero,6,6,6,0
+bronze_capturer2,Merto,2,1,2,1
+bronze_capturer3,garden route,1,1,1,0
+bronze_online_school,Garden Route District Municipality,23,22,5,1
+bronze_capturer1,Merto,2,2,2,0
+bronze_capturer2,cape winelands,2,2,2,0
+bronze_capturer1,Metrro,4,4,4,0
+bronze_capturer2,West Coast District,151,139,116,12
+bronze_capturer2,metro,16,15,16,1
+bronze_capturer3,Garden Route,36,36,34,0
+bronze_capturer2,Overberg,27,25,24,2
+bronze_capturer2,Mtero,3,3,3,0
+bronze_capturer2,Metor,4,3,4,1
+bronze_capturer3,Metrro,3,3,3,0
+bronze_capturer3,West Cast,1,1,1,0
+bronze_capturer1,other,1,1,1,0
+bronze_capturer3,METRO,2,2,2,0
+bronze_capturer3,Ovebrerg,1,1,1,0
+bronze_capturer1,Centtral Karoo,1,1,1,0
+bronze_capturer3,Central Karoo,38,38,36,0
+bronze_capturer1,Central Karoo,14,14,10,0
+bronze_capturer2,Overberg District,170,149,131,21
+bronze_capturer3,Overberg District,55,54,46,1
+bronze_capturer1,Other,21,20,21,1
+bronze_capturer3,Cenrtal Karoo,2,2,2,0
+bronze_online_school,Ehlanzeni District Municipality,1,1,1,0
+bronze_capturer2,Cae Winelands,1,1,1,0
+bronze_capturer1,Overberg District,46,44,33,2
+bronze_online_school,Garden Route District ,13,13,5,0
+bronze_capturer1,Ugu District District,1,1,1,0
+bronze_capturer1,Overberg,7,7,6,0
+bronze_online_school,Cape Winelands District Municipality,118,118,25,0
+bronze_online_school,North West Other,1,1,1,0
+bronze_capturer1,metro,5,5,5,0
+bronze_capturer3,Merto,1,1,1,0
+bronze_capturer1,Wet Coast,1,1,1,0
+bronze_capturer2,West Coast,44,39,40,5
+bronze_online_school,West Coast District,2070,1982,609,88
+bronze_chw_kess,Metro,444,444,200,0
+bronze_capturer3,West Coast District,68,68,52,0
+bronze_capturer2,Central Karoo,12,12,11,0
+bronze_capturer2,Other,6,6,6,0
+bronze_capturer1,Central Karoo District,55,53,41,2
+bronze_capturer3,Othher,1,1,1,0
+bronze_capturer2,Cpe Winelands,1,1,1,0
+bronze_capturer1,King Cetshwayo District,4,4,4,0
+bronze_online_school,Buffalo City District,11,6,2,5
+bronze_online_school,Tshwane & Metsweding District,1,0,1,1
+bronze_online_school,City of Johannesburg District,3,0,1,3
+bronze_capturer1,METRO,1,1,1,0
+bronze_capturer2,Metro,609,563,528,46
+bronze_online_school,Western Cape Metropole/City of Cape Town Municipality,560,529,419,31
+bronze_capturer2,Central Karoo District,70,67,55,3
+bronze_capturer3,West Coast,33,33,32,0
+bronze_online_school,West Coast District Municipality,8,8,8,0
+bronze_capturer2,Metrro,4,4,4,0
+bronze_capturer1,Mtero,1,1,1,0
+bronze_capturer2,garden route,1,1,1,0
+bronze_capturer3,Grden Route,1,1,1,0
+bronze_online_school,Gauteng Other,1,1,1,0
+bronze_chw_witzenberg,Cape Winelands District,510,510,58,0
+bronze_capturer3,cape winelands,3,3,3,0
+bronze_capturer2,Cape  Winelands,1,1,1,0
+bronze_capturer1,UNKNOWN,20,15,20,5
+bronze_capturer1,City of Johannesburg District,1,1,1,0
+bronze_capturer1,Garden Rote,1,1,1,0
+bronze_capturer2,CENTRAL KAROO,1,1,1,0
+bronze_capturer2,Western Cape Other,1,1,1,0
+bronze_capturer1,Cape Winelands District,231,228,155,3
+bronze_capturer3,City of Cape Town District,1013,1009,673,4
+bronze_online_school,Central Karoo District,508,486,209,22
+bronze_capturer1,Garden Route,42,41,38,1
+bronze_capturer2,Mtro,4,3,4,1
+bronze_capturer2,METRO,5,4,5,1
+bronze_capturer1,Mtro,2,2,2,0
+bronze_capturer1,CAPE WINELANDS,2,2,2,0
+bronze_online_school,Overberg District,844,813,358,31
+bronze_online_school,Waterberg District,5,0,2,5
+bronze_capturer2,Meto,4,4,4,0
+bronze_capturer1,cape winelands,1,1,1,0
+bronze_online_school,UNKNOWN,136,120,39,16
+bronze_online_school,Garden Route District,3363,3168,1262,195
+bronze_capturer2,Garden Route District,453,438,349,15
+bronze_capturer1,Cape Winelands,21,21,18,0
+bronze_capturer3,West  Coast,1,1,1,0
+bronze_capturer3,Mtero,1,1,1,0
+bronze_capturer1,Gardden Route,1,1,1,0
+bronze_chw_witzenberg,UNKNOWN,1,1,1,0
+bronze_capturer3,Central Kaaroo,2,2,2,0
+bronze_capturer2,overberg,2,2,2,0
+bronze_capturer2,Garden Route District ,1,1,1,0
+bronze_online_school,Alfred Nzo District,1,1,1,0
+bronze_capturer3,OVERBERG,1,0,1,1
+bronze_capturer1,Meto,1,1,1,0
+bronze_capturer3,Centra lKaroo,1,1,1,0
+bronze_capturer3,CAPE WINELANDS,1,1,1,0

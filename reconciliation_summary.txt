@@ -1,0 +1,88 @@
+KTF DATA ENGINEERING ASSESSMENT
+RECONCILIATION AND QUALITY SUMMARY
+==================================
+
+Status: FINAL QUALITY CHECKS PASSED (current Databricks tables)
+
+1. SOURCE-TO-SILVER RECONCILIATION
+---------------------------------
+Source                         Training events
+bronze_capturer1                        2,731
+bronze_capturer2                        6,701
+bronze_capturer3                        2,175
+bronze_chw_kess                            476
+bronze_chw_west_coast                       22
+bronze_chw_witzenberg                      614
+bronze_online_school                    25,824
+----------------------------------------------
+TOTAL                                   38,543
+Result: PASS
+
+2. PARTICIPANT IDENTITY AND DEDUPLICATION
+-----------------------------------------
+Records with usable identity key:       38,336
+Unidentifiable records:                    207
+Estimated distinct identity keys:       16,743
+Potential duplicate event records:         216
+Records ineligible for event-key dedup:  3,880
+Cross-source identity keys:              2,207
+Associated records across sources:      12,557
+
+Identity hierarchy: ID number > employee number > professional
+registration number > email. Distinct identity keys are estimates,
+not independently verified distinct people.
+
+3. REPORTABILITY RECONCILIATION
+-------------------------------
+REPORTABLE_COMPLETION                   35,742
+UNKNOWN_OUTCOME                          1,712
+NOT_COMPLETED                              666
+DUPLICATE                                  216
+UNIDENTIFIABLE                             207
+----------------------------------------------
+TOTAL                                   38,543
+Result: PASS
+
+4. GOLD REPORT RECONCILIATION
+-----------------------------
+Headline provisional completions:      35,742
+Gold report 1 completions:             35,742
+Gold report 2 completions:             35,742
+Result: PASS
+
+Gold report 1: workspace.gold.gold_completions_by_district_course
+Gold report 2: workspace.gold.gold_enrolments_by_source_district
+
+5. ENROLMENT ARITHMETIC
+-----------------------
+Enrolments:                             37,980
+Provisional completions:               35,742
+Not completed / no completion evidence: 2,238
+Check: 37,980 = 35,742 + 2,238
+Result: PASS
+
+6. COURSE MAPPING
+-----------------
+Before controlled suffix normalization: 9,674 / 38,543 mapped
+Online school after normalization:     24,097 / 25,824 (93.31%)
+CHW source-defined modules: no official course mapping found
+Corrected course mapping propagation: PASS
+Final overall mapping total: not supplied in final audit output
+
+7. QUALITY AND REPRODUCIBILITY NOTES
+------------------------------------
+- FINAL QUALITY CHECKS: PASS on current persisted Databricks tables.
+- Bronze-to-Silver counts and Gold completion totals reconcile.
+- CHW module dates and online approval dates are provisional
+  completion indicators; business confirmation is outstanding.
+- Unknown outcome records included in enrolment arithmetic should
+  not be described as confirmed training failures.
+- Event deduplication requires participant, course and event date;
+  3,880 records lack a complete event key.
+- Two source-event keys were non-unique, so corrected mapping was
+  propagated by normalized course name instead of source-record ID.
+- Effective-dated course/facility lookup matching is not implemented.
+- Clean-environment end-to-end rerun has NOT yet been verified.
+
+Prepared from the Databricks validation outputs supplied for this
+assessment. This file is a summary, not an independent rerun.
